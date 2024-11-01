@@ -1,0 +1,13 @@
+# مساحت مستطیل = طول × عرض
+print("Please enter a value for the area of ​​the rectangle")
+width=int(input("width:"))
+length=int(input("length:"))
+equal=width*length
+print(equal)
+
+#محیط مستطیل = ( طول + عرض) × 2
+print("Please enter a value for the perimeter of the rectangle")
+width=int(input("width:"))
+length=int(input("length:"))
+equal=(width+length)*2
+print(equal)
