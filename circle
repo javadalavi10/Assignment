@@ -1,0 +1,12 @@
+# مساحت دایره = عدد پی ( 3.14 ) × شعاع × شعاع
+print("Please enter a value for the area of ​​the rectangle")
+import math
+width=int(input("شعاع:"))
+equal=width*width*math.pi
+print(equal)
+
+#محیط دایره = عدد پی ( 3.14 ) × قطر
+print("Please enter a value for the perimeter of the rectangle")
+width=int(input("width:"))
+equal=width*2*math.pi
+print(equal)
